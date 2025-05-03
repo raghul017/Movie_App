@@ -7,6 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Always include images in public directory
+!public/*.png
+!public/*.jpg
+!public/*.jpeg
+!public/*.svg
+!public/*.gif
+
 # Dependency directories
 node_modules
 
