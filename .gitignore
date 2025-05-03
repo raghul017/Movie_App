@@ -7,12 +7,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
-dist
-dist-ssr
-*.local
 
-# Editor directories and files
+# Build output (let Vercel build these instead of pushing)
+# If you're using Next.js or similar, Vercel builds from source
+.next
+dist
+out
+build
+
+# Local environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor and OS files
 .vscode/*
 !.vscode/extensions.json
 .idea
